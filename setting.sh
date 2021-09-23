@@ -1,11 +1,7 @@
+
 #!/bin/bash
-
+#https://github.com/dyllisLev/settingFile.git
 clear
-
-echo 'root 설정'
-sudo passwd root
-
-su
 
 echo 'ssh 세팅'
 sudo apt install openssh-server -y
